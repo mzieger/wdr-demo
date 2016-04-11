@@ -12,7 +12,7 @@ public class HelloWorldController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String home(@RequestParam String name) {
-		return "Hello World! How are you today " + name;
+		return "Hello World! How are you today " + name + "at WDR ";
 	}
 
 	public static void main(String[] args) throws Exception {
